@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thriftzaar | Give Fashion a Second Life</title>
+<style>
+    body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background-color: #FAF5EE; /* bone plaster */
+        color: #333;
+    }
+    header {
+        background-color: white;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    header h1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+        color: #444;
+    }
+    nav a {
+        text-decoration: none;
+        color: #444;
+        margin: 0 15px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+    nav a:hover {
+        color: #b89f7a;
+    }
+    section {
+        padding: 60px 10%;
+    }
+    .home {
+        text-align: center;
+        background-color: white;
+        padding: 60px 0;
+        border-radius: 20px;
+        margin: 40px auto;
+        box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    }
+    .home img {
+        width: 70%;
+        max-width: 600px;
+        border-radius: 15px;
+    }
+    h2 {
+        color: #444;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    p {
+        color: #555;
+        line-height: 1.6;
+        font-size: 16px;
+    }
+    .upload-box {
+        background: white;
+        border: 2px dashed #d8cfc2;
+        padding: 30px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .upload-box input {
+        margin-top: 15px;
+    }
+    footer {
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: #777;
+        margin-top: 60px;
+        border-top: 1px solid #eee;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Thriftzaar</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#resell">Resell</a>
+        <a href="#recycle">Recycle</a>
+        <a href="#ecopoints">EcoPoints</a>
+        <a href="#profile">Profile</a>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <h2>Welcome to Thriftzaar</h2>
+    <p>Give your fashion a second life. Resell, recycle, and earn rewards — because sustainability never goes out of style.</p>
+    <img src="banner.jpg" alt="Thriftzaar Banner">
+    <p style="margin-top:15px;"></p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Thriftzaar is a sustainable fashion startup designed for the eco-conscious generation. We connect sellers, buyers, and recyclers to promote a circular fashion economy. 
+       Every outfit deserves a second chance — and Thriftzaar makes it possible, responsibly and stylishly.</p>
+</section>
+
+<section id="resell">
+    <h2>Resell Page</h2>
+    <p>List your pre-loved fashion pieces and earn money or EcoPoints. Upload images of your clothes below to begin your sustainable fashion journey.</p>
+    <div class="upload-box">
+        <p><strong>Upload your clothing pictures:</strong></p>
+        <input type="file" multiple>
+    </div>
+</section>
+
+<section id="recycle">
+    <h2>Recycle Page</h2>
+    <p>Have worn-out clothes? Upload a picture, and we’ll show creative recycling ideas — from tote bags to patchwork designs. Let’s turn waste into wonder!</p>
+    <div class="upload-box">
+        <p><strong>Upload a fabric photo:</strong></p>
+        <input type="file">
+    </div>
+</section>
+
+<section id="ecopoints">
+    <h2>EcoPoints</h2>
+    <p>Earn EcoPoints for every sale, donation, or recycled item. Redeem them for discounts on sustainable brands or exclusive Thriftzaar rewards.</p>
+    <div class="upload-box">
+        <p><strong>Your EcoPoints:</strong> <span style="font-weight:bold; color:#b89f7a;">420</span></p>
+        <button style="padding:10px 20px; background:#b89f7a; color:white; border:none; border-radius:8px; cursor:pointer;">Redeem Now</button>
+    </div>
+</section>
+
+<section id="profile">
+    <h2>Profile</h2>
+    <p>Track your activity, view uploaded items, and manage your sustainable closet all in one place.</p>
+    <div class="upload-box">
+        <p><strong>Username:</strong> Ishita</p>
+        <p><strong>Eco Level:</strong> Gold</p>
+        <p><strong>Listed Items:</strong> 8</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 Thriftzaar | Designed with ♻️ by Team GruNova
+</footer>
+
+</body>
+</html>
